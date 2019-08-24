@@ -1,0 +1,1 @@
+This is the first ODIN Project that I am doing. I will aim to replicate Google's Homepage
