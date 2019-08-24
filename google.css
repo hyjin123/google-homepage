@@ -1,0 +1,58 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: yellow;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+li {
+  float: left;
+  padding: 20px 10px;
+}
+
+.right-nav {
+  float: right;
+}
+
+.image {
+  padding: 5px 10px;
+}
+
+
+.googleLogo {
+  clear: both;
+  display: block;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 150px 200px 0px 200px;
+}
+
+.text {
+  display: block;
+  margin: auto;
+  width: 600px;
+  height: 40px;
+  border: 0.5px solid gray;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 50px;
+}
+
+.submit1 {
+  margin: auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
