@@ -2,7 +2,6 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: yellow;
 }
 
 a {
@@ -40,7 +39,7 @@ li {
 
 .text {
   display: block;
-  margin: auto;
+  margin: 0 auto 40px auto;
   width: 600px;
   height: 40px;
   border: 0.5px solid gray;
@@ -48,11 +47,50 @@ li {
   border-radius: 50px;
 }
 
-.submit1 {
-  margin: auto;
+.button {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.submit {
+  display: inline-block;
+  border: none;
+  padding: 10px;
+  background-color: #EAEAEA;
 }
 
 body {
   margin: 0;
   padding: 0;
+}
+
+.france {
+  color: blue;
+}
+
+p {
+  text-align: center;
+}
+
+.canada {
+  text-align: left;
+  background-color: #EAEAEA;
+  padding: 10px 0 10px 20px;
+  width: 100%;
+  border: 1px solid black;
+  margin: 0;
+  border-bottom: 0px;
+}
+
+.footer {
+  float: left;
+  width: 100%;
+  background-color: #EAEAEA;
+  border: 1px solid black;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
 }
